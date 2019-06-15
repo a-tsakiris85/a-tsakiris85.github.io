@@ -1,0 +1,17 @@
+#typingtext {
+  font-family: "Inconsolata", monospace;
+  font-size: 4em;
+}
+
+#iam {
+  color: #eeeeee;
+  font-family: "Inconsolata", monospace;
+  font-size: 4em;
+}
+
+#iamdiv {
+  background-color: #560764;
+  text-align: center;
+  padding: 0 0 0 0;
+  margin-right: 10px;
+}
