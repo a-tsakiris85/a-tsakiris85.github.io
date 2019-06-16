@@ -35,7 +35,15 @@ export default class TypingTitle extends React.Component {
   render() {
     let text = PHRASES[this.state.textIndex];
     return (
-      <div>
+      <div
+        id="completetyping"
+        style={{
+          height: "150px",
+          minWidth: "800px",
+          gridColumn: "2",
+          paddingTop: "70px"
+        }}
+      >
         <div id="iamdiv" style={{ float: "left" }}>
           <h1 id="iam" style={{ margin: "0 10px 0 0" }}>
             I AM
@@ -43,11 +51,13 @@ export default class TypingTitle extends React.Component {
         </div>
         {this.state.typing ? (
           <Typist
-            style={{ float: "left" }}
+            style={{ float: "left", marginTop: "30px" }}
             onTypingDone={this.done}
             cursor={{ show: false }}
           >
-            <h1 id="typingtext">{text} </h1>
+            <h1 id="typingtext" style={{ marginTop: "0px" }}>
+              {text}{" "}
+            </h1>
             <Typist.Delay ms={1000} />
             <Typist.Backspace count={text.length - 1} />
           </Typist>
