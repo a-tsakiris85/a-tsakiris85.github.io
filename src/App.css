@@ -27,3 +27,28 @@
 .Buttonbar span {
   color: #eeeeee;
 }
+
+#lowerbox {
+  height: 100px;
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 1.3em;
+}
+
+#appcontainer {
+  font-family: "Inconsolata", monospace;
+}
+
+#footer {
+  width: 100%;
+  background-color: #560764;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 20px;
+}
+
+#footer p {
+  color: #eeeeee;
+}
