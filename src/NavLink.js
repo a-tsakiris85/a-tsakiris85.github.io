@@ -4,7 +4,8 @@ import { Navbar } from "react-bootstrap";
 export default function NavLink(props) {
   const style = {
     color: "#eeeeee",
-    marginLeft: "20px",
+
+    marginLeft: "1em",
     fontSize: "1em"
   };
   return (
