@@ -1,8 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
-import profilepic from "./profile.gif";
+import profilepic from "./images/profile.gif";
 import "./App.css";
-import { About } from "./about.js";
+import { About } from "./about";
+import Home from "./pages/Home";
+import AboutPage from "./pages/AboutPage";
+import Contact from "./pages/Contact";
+import Experience from "./pages/Experience";
+import Projects from "./pages/Projects";
 
 import TypingTitle from "./TypingTitle";
 import NavLink from "./NavLink";
@@ -18,6 +22,12 @@ import {
 } from "react-bootstrap";
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      currentPage: "HOME"
+    };
+  }
   render() {
     return (
       <div id="appcontainer">
@@ -28,67 +38,46 @@ class App extends React.Component {
           style={{
             position: "fixed",
             top: "0",
+            height: "50px",
             width: "100%",
             display: "flex"
           }}
         >
-          <Navbar.Brand id="title">ANDREW TSAKIRIS</Navbar.Brand>
-          <NavLink href="#home" text="ABOUT" />
-          <NavLink href="#home" text="EXPERIENCE" />
-          <NavLink href="#home" text="PROJECTS" />
-          <NavLink href="#home" text="CONTACT" />
+          <Navbar.Brand id="title">
+            <a onClick={() => this.handleNavClick("HOME")}>ANDREW TSAKIRIS </a>
+          </Navbar.Brand>
+          <NavLink onClick={this.handleNavClick} text="ABOUT" />
+          <NavLink onClick={this.handleNavClick} text="EXPERIENCE" />
+          <NavLink onClick={this.handleNavClick} text="PROJECTS" />
+          <NavLink onClick={this.handleNavClick} text="CONTACT" />
         </Navbar>
-        <div
-          id="typingtitle"
-          style={{
-            display: "grid",
-            gridTemplateColumn: "20% 80%",
-            gridTemplateRow: "100px auto",
-            marginTop: "110px"
-          }}
-        >
-          <div
-            id="profilecontainer"
-            style={{
-              float: "left",
-              maxWidth: "275px",
-              height: "275px",
-              gridColumn: "1",
-              gridRow: "1 / span 2"
-            }}
-          >
-            <Image
-              src={profilepic}
-              fluid
-              style={{ width: "275px", height: "275px" }}
-            />
-          </div>
-
-          <TypingTitle />
-          <div>
-            <Button className="Buttonbar">
-              <span>ABOUT</span>
-            </Button>
-            <Button className="Buttonbar">
-              <span>EXPERIENCE</span>
-            </Button>
-            <Button className="Buttonbar">
-              <span>PROJECTS</span>
-            </Button>
-            <Button className="Buttonbar">
-              <span>CONTACT</span>
-            </Button>
-          </div>
-        </div>
-
-        <div id="lowerbox">
-          <p>{About}</p>
-        </div>
+        {this.renderPage()}
         <div id="footer">
           <p>Updated: June 2019 </p>
         </div>
       </div>
     );
+  }
+
+  handleNavClick = text => {
+    this.setState({ currentPage: text });
+  };
+  renderPage() {
+    if (this.state.currentPage === "HOME") {
+      return <Home />;
+    }
+    if (this.state.currentPage === "ABOUT") {
+      return <AboutPage />;
+    }
+    if (this.state.currentPage === "CONTACT") {
+      return <Contact />;
+    }
+    if (this.state.currentPage === "EXPERIENCE") {
+      return <Experience />;
+    }
+    if (this.state.currentPage === "PROJECTS") {
+      return <Projects />;
+    }
   }
 }
 

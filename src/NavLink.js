@@ -11,7 +11,7 @@ export default function NavLink(props) {
   return (
     <span style={style}>
       <Navbar.Brand style={style} href={props.href}>
-        {props.text}
+        <button onClick={() => props.onClick(props.text)}>{props.text} </button>
       </Navbar.Brand>
     </span>
   );
