@@ -3,7 +3,7 @@ import profilepic from "../images/profile.gif";
 import { About } from "../about";
 
 import TypingTitle from "../TypingTitle";
-import NavLink from "../NavLink";
+import NavLink from "../components/NavLink";
 
 import "./Home.css";
 

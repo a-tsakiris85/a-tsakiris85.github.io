@@ -9,8 +9,9 @@ import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
 
 import TypingTitle from "./TypingTitle";
-import NavLink from "./NavLink";
+import NavLink from "./components/NavLink";
 
+//TODO: make top nav bar into a grid, make ANDREW TSAKIRIS have a pressable cursor.
 import {
   Navbar,
   NavDropdown,
@@ -44,7 +45,9 @@ class App extends React.Component {
           }}
         >
           <Navbar.Brand id="title">
-            <a onClick={() => this.handleNavClick("HOME")}>ANDREW TSAKIRIS </a>
+            <a onClick={() => this.handleNavClick("HOME")}>
+              <p id="brand">ANDREW TSAKIRIS</p>
+            </a>
           </Navbar.Brand>
           <NavLink onClick={this.handleNavClick} text="ABOUT" />
           <NavLink onClick={this.handleNavClick} text="EXPERIENCE" />

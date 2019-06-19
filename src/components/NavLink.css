@@ -1,0 +1,19 @@
+.HeaderButton {
+  margin-left: 70px;
+  background-color: #560764;
+  border: none;
+  height: 98%;
+  margin-top: 0px;
+}
+
+.spaa {
+  margin-left: 50px;
+}
+
+.HeaderButton p {
+  color: #eeeeee;
+}
+
+.HeaderButton p :hover {
+  color: grey;
+}
