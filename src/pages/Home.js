@@ -49,16 +49,28 @@ export default class Home extends React.Component {
 
           <TypingTitle />
           <div>
-            <Button className="Buttonbar">
+            <Button
+              onClick={() => this.props.onClick("ABOUT")}
+              className="Buttonbar"
+            >
               <span>ABOUT</span>
             </Button>
-            <Button className="Buttonbar">
+            <Button
+              onClick={() => this.props.onClick("EXPERIENCE")}
+              className="Buttonbar"
+            >
               <span>EXPERIENCE</span>
             </Button>
-            <Button className="Buttonbar">
+            <Button
+              onClick={() => this.props.onClick("PROJECTS")}
+              className="Buttonbar"
+            >
               <span>PROJECTS</span>
             </Button>
-            <Button className="Buttonbar">
+            <Button
+              onClick={() => this.props.onClick("CONTACT")}
+              className="Buttonbar"
+            >
               <span>CONTACT</span>
             </Button>
           </div>

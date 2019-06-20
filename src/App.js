@@ -32,9 +32,7 @@ class App extends React.Component {
   render() {
     return (
       <div id="appcontainer">
-        <Navbar
-          bg="light"
-          expand="lg"
+        <div
           className="NavBar"
           style={{
             position: "fixed",
@@ -44,16 +42,12 @@ class App extends React.Component {
             display: "flex"
           }}
         >
-          <Navbar.Brand id="title">
-            <a onClick={() => this.handleNavClick("HOME")}>
-              <p id="brand">ANDREW TSAKIRIS</p>
-            </a>
-          </Navbar.Brand>
+          <NavLink onClick={this.handleNavClick} text="ANDREW TSAKIRIS" />
           <NavLink onClick={this.handleNavClick} text="ABOUT" />
           <NavLink onClick={this.handleNavClick} text="EXPERIENCE" />
           <NavLink onClick={this.handleNavClick} text="PROJECTS" />
           <NavLink onClick={this.handleNavClick} text="CONTACT" />
-        </Navbar>
+        </div>
         {this.renderPage()}
         <div id="footer">
           <p>Updated: June 2019 </p>
@@ -66,8 +60,11 @@ class App extends React.Component {
     this.setState({ currentPage: text });
   };
   renderPage() {
-    if (this.state.currentPage === "HOME") {
-      return <Home />;
+    if (
+      this.state.currentPage === "HOME" ||
+      this.state.currentPage === "ANDREW TSAKIRIS"
+    ) {
+      return <Home onClick={this.handleNavClick} />;
     }
     if (this.state.currentPage === "ABOUT") {
       return <AboutPage />;

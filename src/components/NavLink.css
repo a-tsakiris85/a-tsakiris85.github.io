@@ -1,13 +1,10 @@
 .HeaderButton {
-  margin-left: 70px;
   background-color: #560764;
   border: none;
-  height: 98%;
-  margin-top: 0px;
-}
-
-.spaa {
-  margin-left: 50px;
+  height: 100%;
+  min-width: 10em;
+  font-size: 1.2em;
+  padding: 0 0 0 0;
 }
 
 .HeaderButton p {
@@ -16,4 +13,12 @@
 
 .HeaderButton p :hover {
   color: grey;
+}
+
+.HeaderButton :hover {
+  background-color: black;
+}
+
+.HeaderButton :focus {
+  outline: 0;
 }
