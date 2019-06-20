@@ -27,14 +27,14 @@ export default class ContentRow extends React.Component {
         />
         <ContentItem
           img={this.props.img1}
-          title={this.props.title1}
+          title={this.props.title2}
           desc={this.props.desc2}
           col={"2"}
         />
         <ContentItem
           img={this.props.img1}
-          title={this.props.title1}
-          desc={this.props.desc1}
+          title={this.props.title3}
+          desc={this.props.desc3}
           col={"3"}
         />
       </div>
