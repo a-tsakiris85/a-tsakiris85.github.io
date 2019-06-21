@@ -26,13 +26,13 @@ export default class ContentRow extends React.Component {
           col={"1"}
         />
         <ContentItem
-          img={this.props.img1}
+          img={this.props.img2}
           title={this.props.title2}
           desc={this.props.desc2}
           col={"2"}
         />
         <ContentItem
-          img={this.props.img1}
+          img={this.props.img3}
           title={this.props.title3}
           desc={this.props.desc3}
           col={"3"}

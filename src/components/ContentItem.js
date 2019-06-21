@@ -15,7 +15,7 @@ export default class ContentItem extends React.Component {
         className="outerContentItemDiv"
       >
         <div style={{ maxWidth: "10em" }} className="imageDiv">
-          <Image style={{ maxWidth: "10em" }} src={pic} fluid />
+          <Image style={{ maxHeight: "10em" }} src={this.props.img} fluid />
         </div>
         <h3>{this.props.title}</h3>
         <p>{this.props.desc}</p>
