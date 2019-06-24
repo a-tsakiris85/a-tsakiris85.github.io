@@ -35,19 +35,9 @@ export default class TypingTitle extends React.Component {
   render() {
     let text = PHRASES[this.state.textIndex];
     return (
-      <div
-        id="completetyping"
-        style={{
-          height: "150px",
-          minWidth: "800px",
-          gridColumn: "2",
-          paddingTop: "70px"
-        }}
-      >
+      <div id="completetyping">
         <div id="iamdiv" style={{ float: "left" }}>
-          <h1 id="iam" style={{ margin: "0 10px 0 0" }}>
-            I AM
-          </h1>
+          <h1 id="iam">I AM</h1>
         </div>
         {this.state.typing ? (
           <Typist

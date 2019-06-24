@@ -1,3 +1,42 @@
+@media (min-width: 768px) {
+  #footer {
+    width: 100%;
+    visibility: visible;
+    background-color: #560764;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 1.8em;
+  }
+
+  .NavBar {
+    position: fixed;
+    top: 0;
+    height: 4em;
+    width: 100%;
+    display: flex;
+  }
+
+  #appcontainer {
+    margin-top: 6em;
+  }
+}
+
+@media (max-width: 775px) {
+  #appcontainer {
+    text-align: center;
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+  .NavBar {
+    margin-bottom: 2em;
+    width: 100%;
+  }
+  #footer {
+    visibility: hidden;
+  }
+}
+
 .NavBar {
   background: #560764;
 }
@@ -8,20 +47,11 @@
 }
 
 .Page {
-  margin-top: 50px;
+  margin-top: 1em;
 }
 
 #appcontainer {
   font-family: "Inconsolata", monospace;
-}
-
-#footer {
-  width: 100%;
-  background-color: #560764;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  height: 20px;
 }
 
 #footer p {

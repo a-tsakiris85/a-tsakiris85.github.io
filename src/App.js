@@ -32,16 +32,7 @@ class App extends React.Component {
   render() {
     return (
       <div id="appcontainer">
-        <div
-          className="NavBar"
-          style={{
-            position: "fixed",
-            top: "0",
-            height: "50px",
-            width: "100%",
-            display: "flex"
-          }}
-        >
+        <div className="NavBar">
           <NavLink onClick={this.handleNavClick} text="ANDREW TSAKIRIS" />
           <NavLink onClick={this.handleNavClick} text="ABOUT" />
           <NavLink onClick={this.handleNavClick} text="EXPERIENCE" />

@@ -21,34 +21,17 @@ export default class Home extends React.Component {
   render() {
     return (
       <div id="home">
-        <div
-          id="typingtitle"
-          style={{
-            display: "grid",
-            gridTemplateColumn: "20% 80%",
-            gridTemplateRow: "100px auto",
-            marginTop: "110px"
-          }}
-        >
-          <div
-            id="profilecontainer"
-            style={{
-              float: "left",
-              maxWidth: "275px",
-              height: "275px",
-              gridColumn: "1",
-              gridRow: "1 / span 2"
-            }}
-          >
+        <div id="typingtitle">
+          <div id="profilecontainer">
             <Image
               src={profilepic}
               fluid
-              style={{ width: "275px", height: "275px" }}
+              style={{ width: "19em", height: "19em" }}
             />
           </div>
 
           <TypingTitle />
-          <div>
+          <div id="buttons">
             <Button
               onClick={() => this.props.onClick("ABOUT")}
               className="Buttonbar"

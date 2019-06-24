@@ -1,18 +1,49 @@
-#typingtitle {
-  margin-top: 5%;
-  margin-left: 8%;
+#buttons {
+  visibility: hidden;
 }
 
-#appcontainer {
-}
+@media (min-width: 768px) {
+  #buttons {
+    visibility: visible;
+    display: flex;
+    grid-row: 2;
+    grid-column: 2;
+  }
+  #typingtitle {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 10em 7em;
+    grid-column-gap: 5em;
+    grid-row-gap: 2.5em;
+    margin-top: 7em;
+  }
 
-.Buttonbar {
-  border-color: #560764;
-  border-width: 3px;
-  background-color: #560764;
-  margin-right: 16px;
-  height: 50px;
-  width: 150px;
+  #profilecontainer {
+    float: left;
+    max-width: 17em;
+    height: 20em;
+    grid-column: 1;
+    grid-row: "1 / span 2";
+  }
+  .Buttonbar {
+    border-color: #560764;
+    border-width: 0.1em;
+    background-color: #560764;
+    margin-right: 1.7em;
+    height: 3.6em;
+    width: 10em;
+  }
+  #lowerbox {
+    height: 7em;
+    margin-top: 1.3em;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.3em;
+  }
+  #typingtitle {
+    margin-top: 5%;
+    margin-left: 8%;
+  }
 }
 
 .Buttonbar span {
@@ -24,12 +55,4 @@
 }
 .Buttonbar:focus {
   background-color: #560764;
-}
-
-#lowerbox {
-  height: 100px;
-  margin-top: 30px;
-  margin-left: 10%;
-  margin-right: 10%;
-  font-size: 1.3em;
 }

@@ -1,17 +1,40 @@
-#typingtext {
-  font-family: "Inconsolata", monospace;
-  font-size: 4em;
+@media (max-width: 775px) {
+  #completetyping {
+  }
+  #iamdiv {
+    padding-top: 1em;
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+  #iam {
+    padding: 0 0 0 0;
+    margin-right: 0px;
+  }
 }
+@media (min-width: 768px) {
+  #completetyping {
+    height: 150px;
+    min-width: 800px;
+    grid-column: "2";
+    grid-row: "1";
+    padding-top: 70px;
+  }
+  #typingtext {
+    font-family: "Inconsolata", monospace;
+    font-size: 4em;
+  }
 
-#iam {
-  color: #eeeeee;
-  font-family: "Inconsolata", monospace;
-  font-size: 4em;
-}
+  #iam {
+    color: #eeeeee;
+    font-family: "Inconsolata", monospace;
+    font-size: 4em;
+    margin: 0 10px 0 0;
+  }
 
-#iamdiv {
-  background-color: #560764;
-  text-align: center;
-  padding: 0 0 0 0;
-  margin-right: 10px;
+  #iamdiv {
+    background-color: #560764;
+    text-align: center;
+    padding: 0 0 0 0;
+    margin-right: 10px;
+  }
 }
