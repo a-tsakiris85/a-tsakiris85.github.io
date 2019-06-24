@@ -1,5 +1,6 @@
 import React from "react";
 import ContentItem from "./ContentItem";
+import "./ContentRow.css";
 
 export default class ContentRow extends React.Component {
   constructor(props) {
@@ -8,17 +9,8 @@ export default class ContentRow extends React.Component {
 
   render() {
     return (
-      <div
-        style={{
-          display: "grid",
-          marginLeft: "4%",
-          gridAutoColumns: "30% 30% 30%",
-          gridAutoRows: "3em auto",
-          gridColumnGap: "2.5%",
-          marginBottom: "1em"
-        }}
-      >
-        <h1 style={{ gridRow: "1 / span 3" }}>{this.props.overallTitle}</h1>
+      <div id="ContentRow">
+        <h1 id="ContentTitle">{this.props.overallTitle}</h1>
         <ContentItem
           img={this.props.img1}
           title={this.props.title1}

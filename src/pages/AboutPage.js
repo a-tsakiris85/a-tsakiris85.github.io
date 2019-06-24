@@ -23,10 +23,12 @@ import gameImg from "../images/game.png";
 import dumbellImg from "../images/sports.png";
 import bulbImg from "../images/learning.png";
 
+import "./AboutPage.css";
+
 export default class AboutPage extends React.Component {
   render() {
     return (
-      <div className="Page" style={{ paddingTop: "2em", marginBottom: "3em" }}>
+      <div className="Page">
         <ContentRow
           overallTitle="Places I've Studied"
           img1={cornellImg}

@@ -14,7 +14,7 @@ export default class ContentItem extends React.Component {
         style={{ gridColumn: this.props.col }}
         className="outerContentItemDiv"
       >
-        <div style={{ maxWidth: "10em" }} className="imageDiv">
+        <div className="imageDiv">
           <Image style={{ maxHeight: "10em" }} src={this.props.img} fluid />
         </div>
         <h3>{this.props.title}</h3>

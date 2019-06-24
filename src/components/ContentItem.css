@@ -1,7 +1,13 @@
-.outerContentItemDiv {
-  text-align: center;
+@media (min-width: 768px) {
+  .outerContentItemDiv {
+    text-align: center;
+  }
+
+  .imageDiv {
+    display: inline-block;
+    max-width: 10em;
+  }
 }
 
-.imageDiv {
-  display: inline-block;
+@media (max-width: 775px) {
 }
