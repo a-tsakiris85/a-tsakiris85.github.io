@@ -39,7 +39,9 @@ class App extends React.Component {
           <NavLink onClick={this.handleNavClick} text="PROJECTS" />
           <NavLink onClick={this.handleNavClick} text="CONTACT" />
         </div>
+
         {this.renderPage()}
+
         <div id="footer">
           <p>Updated: June 2019 </p>
         </div>

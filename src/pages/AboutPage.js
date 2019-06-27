@@ -11,7 +11,7 @@ import {
   FUN_DESC,
   SPORTS_DESC,
   LEARNING_DESC
-} from "./AboutText";
+} from "../AboutText";
 
 import cornellImg from "../images/cornell.png";
 import conantImg from "../images/conant.gif";

@@ -11,3 +11,7 @@
 
 @media (max-width: 775px) {
 }
+
+.outerContentItemDiv {
+  z-index: -5;
+}

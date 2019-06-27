@@ -4,7 +4,7 @@
     margin-left: 4%;
     grid-auto-columns: 30% 30% 30%;
     grid-auto-rows: 6em auto;
-    grid-column-gap: "2.5%";
+    grid-column-gap: 2.5%;
     margin-bottom: 1em;
   }
   #ContentTitle {
