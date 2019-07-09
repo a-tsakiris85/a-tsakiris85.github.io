@@ -1,0 +1,14 @@
+.ExperienceItemContainer {
+  display: grid;
+  grid-auto-columns: 20em 20em 20em 20em;
+  grid-column-gap: 0px;
+  width: 80em;
+  margin: auto auto;
+}
+
+.Message {
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+  margin-top: 2em;
+}

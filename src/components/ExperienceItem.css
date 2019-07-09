@@ -1,5 +1,64 @@
 .ExperienceItem {
-  height: 10em;
+  height: 13em;
   border-style: solid;
   border-color: #560764;
+  background: white;
+}
+
+.ImageContainer {
+  height: 9em;
+  margin-top: 0.8em;
+}
+
+.SelectedGrid {
+  display: grid;
+  grid-auto-columns: 10em auto auto;
+  grid-column-gap: 1.5em;
+}
+
+.SelectedGrid .ImageContainer {
+  grid-column: 1;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.SelectedGrid .TitleDiv {
+  grid-column: 2;
+  margin-left: 1em;
+}
+
+.SelectedGrid .DescriptionDiv {
+  grid-column: 3;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.Position {
+  font-size: 2em;
+  text-emphasis: bolder;
+  margin-bottom: 0px;
+}
+
+.Organization {
+  font-size: 1.5em;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+.Location {
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.DateString {
+  margin-top: 1em;
+  font-size: 1.5em;
+}
+
+.Label {
+  font-size: 2em;
+}
+
+.Description {
+  font-size: 1.2em;
 }

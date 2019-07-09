@@ -1,9 +1,16 @@
 import React from "react";
 import ExperienceItem from "../components/ExperienceItem";
-import { exp1 } from "../ExperienceInfo.js";
+import { exp1, exp2, exp3, exp4 } from "../ExperienceInfo.js";
 import "../App.css";
+import "./Experience.css";
 
 export default class Experience extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      item_selected: 0
+    };
+  }
   render() {
     return (
       <div
@@ -12,23 +19,44 @@ export default class Experience extends React.Component {
           width: "100%"
         }}
       >
-        <div
-          style={{
-            display: "grid",
-            gridAutoColumns: "20em 20em 20em 20em",
-            gridColumnGap: "0px",
-            width: "80em",
-            margin: "auto auto"
-          }}
-        >
-          <ExperienceItem col={1} item={exp1} />
-          <ExperienceItem col={2} item={exp1} />
-          <ExperienceItem col={3} item={exp1} />
-          <ExperienceItem col={4} item={exp1} />
+        <div className="ExperienceItemContainer">
+          <ExperienceItem
+            handleClick={this.handleClick}
+            selected={this.state.item_selected == 1}
+            col={1}
+            item={exp1}
+          />
+          <ExperienceItem
+            handleClick={this.handleClick}
+            selected={this.state.item_selected == 2}
+            col={2}
+            item={exp2}
+          />
+          <ExperienceItem
+            handleClick={this.handleClick}
+            selected={this.state.item_selected == 3}
+            col={3}
+            item={exp3}
+          />
+          <ExperienceItem
+            handleClick={this.handleClick}
+            selected={this.state.item_selected == 4}
+            col={4}
+            item={exp4}
+          />
         </div>
+        {this.state.item_selected == 0 ? (
+          <p className="Message">Click on an Experience Above to Expand</p>
+        ) : (
+          <div />
+        )}
       </div>
     );
   }
+
+  handleClick = item_selected => {
+    this.setState({ item_selected });
+  };
 }
 
 /*
