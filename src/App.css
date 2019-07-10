@@ -1,7 +1,7 @@
 @media (min-width: 768px) {
   #footer {
     width: 100%;
-    visibility: visible;
+    visibility: hidden;
     background-color: #560764;
     position: fixed;
     left: 0;
@@ -19,6 +19,11 @@
 
   #appcontainer {
     margin-top: 6em;
+  }
+
+  .PageTitle {
+    margin-bottom: 1em;
+    margin-left: 2em;
   }
 }
 
