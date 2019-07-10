@@ -19,7 +19,6 @@ export default class Experience extends React.Component {
           width: "100%"
         }}
       >
-        <h1 className="PageTitle">EXPERIENCE</h1>
         <div className="ExperienceItemContainer">
           <ExperienceItem
             handleClick={this.handleClick}
