@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/personalwebsite/static/css/main.faf30c4e.chunk.css",
+    "main.js": "/personalwebsite/static/js/main.38537017.chunk.js",
+    "main.js.map": "/personalwebsite/static/js/main.38537017.chunk.js.map",
+    "runtime~main.js": "/personalwebsite/static/js/runtime~main.29a1488c.js",
+    "runtime~main.js.map": "/personalwebsite/static/js/runtime~main.29a1488c.js.map",
+    "static/js/2.a2843810.chunk.js": "/personalwebsite/static/js/2.a2843810.chunk.js",
+    "static/js/2.a2843810.chunk.js.map": "/personalwebsite/static/js/2.a2843810.chunk.js.map",
+    "index.html": "/personalwebsite/index.html",
+    "precache-manifest.cfbf535d45ca6d46b54e5ef055373566.js": "/personalwebsite/precache-manifest.cfbf535d45ca6d46b54e5ef055373566.js",
+    "service-worker.js": "/personalwebsite/service-worker.js",
+    "static/css/main.faf30c4e.chunk.css.map": "/personalwebsite/static/css/main.faf30c4e.chunk.css.map",
+    "static/media/acton.png": "/personalwebsite/static/media/acton.ce198c29.png",
+    "static/media/college_academy.jpg": "/personalwebsite/static/media/college_academy.f4b63b89.jpg",
+    "static/media/conant.gif": "/personalwebsite/static/media/conant.44e74408.gif",
+    "static/media/cornell.png": "/personalwebsite/static/media/cornell.b44c6f5b.png",
+    "static/media/game.png": "/personalwebsite/static/media/game.b3f99e0f.png",
+    "static/media/learning.png": "/personalwebsite/static/media/learning.d181cbfb.png",
+    "static/media/profile.gif": "/personalwebsite/static/media/profile.14fbd1b5.gif",
+    "static/media/programming.png": "/personalwebsite/static/media/programming.53a86ef1.png",
+    "static/media/speaking.png": "/personalwebsite/static/media/speaking.e8f4eb42.png"
+  }
+}
