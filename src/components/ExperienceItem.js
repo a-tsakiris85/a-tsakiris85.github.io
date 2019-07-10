@@ -70,7 +70,13 @@ export default class ExperienceItem extends React.Component {
             />
           </div>
           <div style={{ textAlign: "left", marginLeft: "5em" }}>
-            <p className="Position">{this.props.item.position} </p>
+            {this.props.item.position === "Software Engineering Intern" ? (
+              <p style={{ fontSize: "1.2em" }} className="Position">
+                {this.props.item.position}
+              </p>
+            ) : (
+              <p className="Position">{this.props.item.position}</p>
+            )}
             <p className="Organization">{this.props.item.organization}</p>
             <p className="Location">{this.props.item.location}</p>
           </div>
@@ -90,13 +96,7 @@ export default class ExperienceItem extends React.Component {
         <div className="ImageContainer">
           <Image style={{ maxHeight: "5em" }} src={this.props.item.img} fluid />
         </div>
-        {this.props.item.position === "Software Engineering Intern" ? (
-          <p style={{ fontSize: "1.2em" }} className="UnselectedPosition">
-            {this.props.item.position}
-          </p>
-        ) : (
-          <p className="UnselectedPosition">{this.props.item.position}</p>
-        )}
+        <p className="UnselectedPosition">{this.props.item.position}</p>
       </React.Fragment>
     );
   };
