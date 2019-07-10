@@ -29,6 +29,7 @@ export default class AboutPage extends React.Component {
   render() {
     return (
       <div className="Page">
+        <h1 className="PageTitle">ABOUT</h1>
         <ContentRow
           overallTitle="Places I've Studied"
           img1={cornellImg}

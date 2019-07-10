@@ -21,6 +21,80 @@ export default class ExperienceItem extends React.Component {
   };
 
   render() {
+    const width = document.documentElement.clientWidth;
+    if (width > 700) {
+      return this.renderDesktop();
+    } else {
+      return this.renderPhone();
+    }
+  }
+
+  renderPhone = () => {
+    return (
+      <Motion
+        defaultStyle={{ height: 7 }}
+        style={{
+          height: this.props.selected ? spring(24) : spring(7)
+        }}
+      >
+        {style => {
+          style = {
+            height: style.height + "em"
+          };
+
+          return (
+            <div
+              style={style}
+              onClick={this.myHandleClick}
+              className="ExperienceItem"
+            >
+              {this.props.selected
+                ? this.renderSelectedPhone()
+                : this.renderUnselectedPhone()}
+            </div>
+          );
+        }}
+      </Motion>
+    );
+  };
+
+  renderSelectedPhone = () => {
+    return (
+      <React.Fragment>
+        <div>
+          <div className="ImageContainer" style={{ marginRight: "0.3em" }}>
+            <Image
+              style={{ maxHeight: "5em" }}
+              src={this.props.item.img}
+              fluid
+            />
+          </div>
+          <div style={{ textAlign: "left", marginLeft: "5em" }}>
+            <p className="Position">{this.props.item.position} </p>
+            <p className="Organization">{this.props.item.organization}</p>
+            <p className="Location">{this.props.item.location}</p>
+          </div>
+        </div>
+        <div className="DescriptionDiv" style={{ marginLeft: "1.5em" }}>
+          <p className="Label">Description:</p>
+          <p className="Description">{this.props.item.description}</p>
+        </div>
+        <p className="DateString">{this.props.item.dateString} </p>
+      </React.Fragment>
+    );
+  };
+
+  renderUnselectedPhone = () => {
+    return (
+      <React.Fragment>
+        <div className="ImageContainer">
+          <Image style={{ maxHeight: "5em" }} src={this.props.item.img} fluid />
+        </div>
+        <p className="UnselectedPosition">{this.props.item.position}</p>
+      </React.Fragment>
+    );
+  };
+  renderDesktop = () => {
     return (
       <Motion
         defaultStyle={{ x: 0, opacity: 0, y: 0, width: 20 }}
@@ -50,16 +124,16 @@ export default class ExperienceItem extends React.Component {
               className="ExperienceItem"
             >
               {this.props.selected
-                ? this.renderSelected()
-                : this.renderUnselected()}
+                ? this.renderSelectedDesktop()
+                : this.renderUnselectedDesktop()}
             </div>
           );
         }}
       </Motion>
     );
-  }
+  };
 
-  renderSelected = () => {
+  renderSelectedDesktop = () => {
     return (
       <div className="SelectedGrid">
         <div className="ImageContainer">
@@ -83,7 +157,7 @@ export default class ExperienceItem extends React.Component {
     );
   };
 
-  renderUnselected = () => {
+  renderUnselectedDesktop = () => {
     return (
       <div>
         <div className="ImageContainer">
