@@ -90,7 +90,13 @@ export default class ExperienceItem extends React.Component {
         <div className="ImageContainer">
           <Image style={{ maxHeight: "5em" }} src={this.props.item.img} fluid />
         </div>
-        <p className="UnselectedPosition">{this.props.item.position}</p>
+        {this.props.item.position === "Software Engineering Intern" ? (
+          <p style={{ fontSize: "1.2em" }} className="UnselectedPosition">
+            {this.props.item.position}
+          </p>
+        ) : (
+          <p className="UnselectedPosition">{this.props.item.position}</p>
+        )}
       </React.Fragment>
     );
   };
