@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab2c548aa1521140df88a5c07585bedc",
+    "revision": "4f97a685701d5c5a61f20c5f5dc7b8d4",
     "url": "/personalwebsite/index.html"
   },
   {
-    "revision": "4e44b785c0c54d78e9df",
-    "url": "/personalwebsite/static/css/main.faf30c4e.chunk.css"
+    "revision": "cc4355d8e777859fd0c2",
+    "url": "/personalwebsite/static/css/main.448b91ab.chunk.css"
   },
   {
-    "revision": "e8c15ba50308052e37df",
-    "url": "/personalwebsite/static/js/2.a2843810.chunk.js"
+    "revision": "12b1b94a46bb1dd2e80d",
+    "url": "/personalwebsite/static/js/2.1efc5228.chunk.js"
   },
   {
-    "revision": "4e44b785c0c54d78e9df",
-    "url": "/personalwebsite/static/js/main.78e3c26c.chunk.js"
+    "revision": "cc4355d8e777859fd0c2",
+    "url": "/personalwebsite/static/js/main.58b35151.chunk.js"
   },
   {
     "revision": "1f782c562390b2e61027",
@@ -40,8 +40,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personalwebsite/static/media/game.b3f99e0f.png"
   },
   {
+    "revision": "7f1ed2cb9f6ee758e66b4c51055dd8a5",
+    "url": "/personalwebsite/static/media/instagram.7f1ed2cb.png"
+  },
+  {
     "revision": "d181cbfb295d480e11de3c0e89b68fcf",
     "url": "/personalwebsite/static/media/learning.d181cbfb.png"
+  },
+  {
+    "revision": "15fd5adb3c750e71a0e6ba69caaabe5f",
+    "url": "/personalwebsite/static/media/linkedin.15fd5adb.png"
   },
   {
     "revision": "14fbd1b57e3f429c489db79530627a33",
