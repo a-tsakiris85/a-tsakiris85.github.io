@@ -40,6 +40,9 @@
   #footer {
     visibility: hidden;
   }
+  .PageTitle {
+    margin-bottom: 1.5em;
+  }
 }
 
 .NavBar {

@@ -7,6 +7,7 @@ import AboutPage from "./pages/AboutPage";
 import Contact from "./pages/Contact";
 import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
+import Involvements from "./pages/Involvements";
 
 import TypingTitle from "./TypingTitle";
 import NavLink from "./components/NavLink";
@@ -37,6 +38,7 @@ class App extends React.Component {
           <NavLink onClick={this.handleNavClick} text="ABOUT" />
           <NavLink onClick={this.handleNavClick} text="EXPERIENCE" />
           <NavLink onClick={this.handleNavClick} text="PROJECTS" />
+          <NavLink onClick={this.handleNavClick} text="INVOLVEMENT" />
           <NavLink onClick={this.handleNavClick} text="CONTACT" />
         </div>
 
@@ -70,6 +72,9 @@ class App extends React.Component {
     }
     if (this.state.currentPage === "PROJECTS") {
       return <Projects />;
+    }
+    if (this.state.currentPage === "INVOLVEMENT") {
+      return <Involvements />;
     }
   }
 }

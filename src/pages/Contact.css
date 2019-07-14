@@ -1,0 +1,34 @@
+.ContactContainer {
+  width: 20%;
+  max-width: 20%;
+  min-width: 20%;
+  margin-left: 4%;
+}
+
+.ContactContainer :hover {
+  opacity: 0.8;
+}
+.ContactContent {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.ContactPicture {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 750px) {
+  .ContactContainer {
+    width: 40%;
+    min-width: 40%;
+    max-width: 40%;
+    margin-left: 6.66%;
+    margin-bottom: 5%;
+  }
+}
+
+@media (min-width: 750px) {
+}

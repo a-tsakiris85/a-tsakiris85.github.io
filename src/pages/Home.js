@@ -51,10 +51,10 @@ export default class Home extends React.Component {
               <span>PROJECTS</span>
             </Button>
             <Button
-              onClick={() => this.props.onClick("CONTACT")}
+              onClick={() => this.props.onClick("INVOLVEMENT")}
               className="Buttonbar"
             >
-              <span>CONTACT</span>
+              <span>INVOLVEMENT</span>
             </Button>
           </div>
         </div>
