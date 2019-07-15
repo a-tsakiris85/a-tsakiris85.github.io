@@ -1,0 +1,73 @@
+.ProjectItem {
+  width: 90%;
+  min-width: 90%;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  vertical-align: middle;
+  margin-bottom: 3em;
+  padding-right: 1em;
+}
+
+.ProjectTitle {
+  font-size: 2.5em;
+  margin: 0 0 0 0;
+}
+
+.ProjectSubtitle {
+  font-size: 1.5em;
+  font-style: italic;
+  margin: 0 0 0 0;
+}
+
+.ProjectDate {
+  font-style: italic;
+  float: right;
+  font-size: 0.75em;
+}
+
+.ProjectDescription {
+  font-size: 1.1em;
+  margin-top: 1em;
+}
+
+.LinkContainer {
+  float: right;
+}
+
+.ProjectImageContainer {
+  max-width: 20%;
+  min-width: 20%;
+  margin-right: 2em;
+  vertical-align: middle;
+}
+
+.ProjectImage {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.LinkImage {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.LinkImageContainer {
+  min-width: 3em;
+  max-width: 3em;
+  margin-left: 1em;
+}
+
+.LinkImageContainer :hover {
+  opacity: 0.8;
+}
+
+.LinkContainer {
+  display: flex;
+  margin-bottom: 1em;
+}

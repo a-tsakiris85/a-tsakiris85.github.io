@@ -18,6 +18,7 @@
 .ContactPicture {
   min-width: 100%;
   max-width: 100%;
+  min-height: width;
 }
 
 @media (max-width: 750px) {
