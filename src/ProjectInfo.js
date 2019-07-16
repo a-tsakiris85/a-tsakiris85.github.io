@@ -64,7 +64,7 @@ export const baseball = {
   dateString: "Spring 2019",
   links: [
     {
-      link: "https://github.com/a-tsakiris85/arcade-baseball",
+      link: "https://github.com/a-tsakiris85/arcadebaseball",
       linkIcon: githubImg
     },
     {
