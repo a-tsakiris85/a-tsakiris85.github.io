@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4f97a685701d5c5a61f20c5f5dc7b8d4",
+    "revision": "97d2c05734a89c2b27b46f911613702f",
     "url": "/personalwebsite/index.html"
   },
   {
-    "revision": "cc4355d8e777859fd0c2",
-    "url": "/personalwebsite/static/css/main.448b91ab.chunk.css"
+    "revision": "e37e5d028f1cd102a8d6",
+    "url": "/personalwebsite/static/css/main.d21ff875.chunk.css"
   },
   {
-    "revision": "12b1b94a46bb1dd2e80d",
-    "url": "/personalwebsite/static/js/2.1efc5228.chunk.js"
+    "revision": "e74537edf9e38f796981",
+    "url": "/personalwebsite/static/js/2.04bdbcb7.chunk.js"
   },
   {
-    "revision": "cc4355d8e777859fd0c2",
-    "url": "/personalwebsite/static/js/main.58b35151.chunk.js"
+    "revision": "e37e5d028f1cd102a8d6",
+    "url": "/personalwebsite/static/js/main.493fe45d.chunk.js"
   },
   {
     "revision": "1f782c562390b2e61027",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ce198c29b44723dbf40e7f7a75a89fc7",
     "url": "/personalwebsite/static/media/acton.ce198c29.png"
+  },
+  {
+    "revision": "0bbd47bfabfb21823fbceebfddf8d603",
+    "url": "/personalwebsite/static/media/baseball.0bbd47bf.png"
   },
   {
     "revision": "f4b63b896bf062e13a847a8108fa2711",
@@ -34,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b44c6f5bc40eeaf285f95244ce34e8b9",
     "url": "/personalwebsite/static/media/cornell.b44c6f5b.png"
+  },
+  {
+    "revision": "00112fed5a308867d01383a77f6a00a7",
+    "url": "/personalwebsite/static/media/critter.00112fed.png"
   },
   {
     "revision": "b3f99e0fbae6d86e8946b7267a8a2393",
@@ -58,6 +66,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "53a86ef19f955dbd95bcb7423b6f4617",
     "url": "/personalwebsite/static/media/programming.53a86ef1.png"
+  },
+  {
+    "revision": "47ce6e77f039020ee2e76a10c1e988e9",
+    "url": "/personalwebsite/static/media/react.47ce6e77.png"
+  },
+  {
+    "revision": "a6531937554eecd5cc82bf109a15bb57",
+    "url": "/personalwebsite/static/media/slides.a6531937.png"
   },
   {
     "revision": "e8f4eb42adf58d40c7c2218c369a7f4a",
