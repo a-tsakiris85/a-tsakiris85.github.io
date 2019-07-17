@@ -28,7 +28,7 @@ import "./AboutPage.css";
 export default class AboutPage extends React.Component {
   render() {
     return (
-      <div className="Page">
+      <div className="Page Centered">
         <h1 className="PageTitle">ABOUT</h1>
         <ContentRow
           overallTitle="Places I've Studied"

@@ -3,6 +3,12 @@
 }
 
 @media (min-width: 768px) {
+  #home {
+    min-width: 1000px;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+  }
   #buttons {
     visibility: visible;
     display: flex;
@@ -11,9 +17,10 @@
   }
   #typingtitle {
     display: grid;
+    padding-left: 0px;
     grid-template-columns: 20% 80%;
     grid-template-rows: 10em 7em;
-    grid-column-gap: 5em;
+    grid-column-gap: 120px;
     grid-row-gap: 2.5em;
     margin-top: 7em;
   }
@@ -35,14 +42,8 @@
   }
   #lowerbox {
     height: 7em;
-    margin-top: 1.3em;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 1.6em;
     font-size: 1.3em;
-  }
-  #typingtitle {
-    margin-top: 5%;
-    margin-left: 8%;
   }
 }
 

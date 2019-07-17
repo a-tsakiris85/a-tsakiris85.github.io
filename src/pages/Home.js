@@ -60,7 +60,7 @@ export default class Home extends React.Component {
         </div>
 
         <div id="lowerbox">
-          <p>{About}</p>
+          <p style={{ whiteSpace: "pre-wrap" }}>{About}</p>
         </div>
       </div>
     );
