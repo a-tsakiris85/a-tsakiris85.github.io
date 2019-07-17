@@ -1,14 +1,21 @@
 @media (min-width: 768px) {
   #ContentRow {
     display: grid;
-    margin-left: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    width: 90%;
+    max-width: 90%;
+    min-width: 90%;
     grid-auto-columns: 30% 30% 30%;
-    grid-auto-rows: 6em auto;
+    grid-auto-rows: auto;
     grid-column-gap: 2.5%;
     margin-bottom: 1em;
   }
   #ContentTitle {
-    grid-row: "1 / span 3";
+    grid-column: 1 / span 3;
+    margin-left: 2em;
+    margin-bottom: 1em;
   }
 }
 

@@ -1,5 +1,6 @@
 .ExperienceItemContainer {
-  min-width: 100%;
+  min-width: 80em;
+  max-width: 80em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -12,12 +13,22 @@
 
 @media (min-width: 750px) {
   .ExperienceItemContainer {
-    margin-left: 5em;
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     grid-auto-columns: 20em 20em 20em 20em;
     grid-column-gap: 0px;
   }
   .Message {
     margin-top: 2em;
+  }
+}
+
+@media (max-width: 750px) {
+  .ExperienceItemContainer {
+    min-width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

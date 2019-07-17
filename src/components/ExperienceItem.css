@@ -115,6 +115,8 @@
   }
 
   .DescriptionDiv {
+    margin-top: 1em;
+    padding-left: 0px;
     text-align: left;
   }
 
