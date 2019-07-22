@@ -1,6 +1,6 @@
 @media (min-width: 750px) {
   .ExperienceItem {
-    height: 13em;
+    height: 14em;
     border-style: solid;
     border-color: #560764;
     background: white;
@@ -59,10 +59,12 @@
 
   .Label {
     font-size: 2em;
+    margin-bottom: 0;
   }
 
   .Description {
     font-size: 1.2em;
+    white-space: pre-wrap;
   }
 }
 
@@ -122,5 +124,6 @@
 
   .Description {
     font-size: 1.2em;
+    white-space: pre-wrap;
   }
 }

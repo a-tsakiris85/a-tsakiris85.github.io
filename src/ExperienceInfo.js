@@ -10,7 +10,7 @@ export const exp1 = {
   dateString: "Summer 2019",
   location: "Incline Village, NV",
   description:
-    "Developed some things. Did this and that. Lots of stuff!Developed some things. Did this and that. Lots of stuff!Developed some things. Did this and that. Lots of stuff!"
+    "- Designed and developed an Application Health Dashboard to be displayed on internal monitors throughout office.\n- Wrote API's to extract live data from AWS to display current state of Ridgeline's application pipeline.\n- Worked full stack: Python, React JS, and DynamoDB using AWS Lambda Serverless Framework."
 };
 
 export const exp2 = {
@@ -20,7 +20,7 @@ export const exp2 = {
   dateString: "Summer 2018",
   location: "Philadelphia, PA",
   description:
-    "Developed some things. Did this and that. Lots of stuff!Developed some things. Did this and that. Lots of stuff!Developed some things. Did this and that. Lots of stuff!"
+    "- Designed and implemented series of experiments to quantify the flexibility of recurrent neural networks in web information extraction tasks. (Python: numpy, pandas, keras)\n- Successfully grouped error-characters into 3 groups for each of 4 entity domains for use in a deep-learning based web wrapper."
 };
 
 export const exp3 = {
@@ -30,7 +30,7 @@ export const exp3 = {
   dateString: "January 2018 - Present",
   location: "Ithaca, NY",
   description:
-    "Developed some things. Did this and that. Lots of stuff!Developed some things. Did this and that. Lots of stuff!Developed some things. Did this and that. Lots of stuff!"
+    "- Starting Spring semester of freshman year, worked 3 semesters as a consultant. Held weekly office hours, graded assignments and exams.\n- Starting Fall semester of junior year, working as TA, teaching weekly recitation sections in addition to grading and office hour duties."
 };
 
 export const exp4 = {
@@ -40,5 +40,5 @@ export const exp4 = {
   dateString: "Summer 2016 + Summer 2017",
   location: "Maynard, MA",
   description:
-    "Developed some things. Did this and that. Lots of stuff!Developed some things. Did this and that. Lots of stuff!Developed some things. Did this and that. Lots of stuff!"
+    "- Developed and taught 3-week courses in Java and HTML/CSS to students in grades 5-9.\n- Presented lessons to classes of 20 students and worked 1-on-1 with students on each of their 4 project-based assignments."
 };

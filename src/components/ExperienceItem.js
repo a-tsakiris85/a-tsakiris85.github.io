@@ -34,7 +34,7 @@ export default class ExperienceItem extends React.Component {
       <Motion
         defaultStyle={{ height: 7 }}
         style={{
-          height: this.props.selected ? spring(24) : spring(7)
+          height: this.props.selected ? spring(30) : spring(7)
         }}
       >
         {style => {
@@ -108,7 +108,7 @@ export default class ExperienceItem extends React.Component {
           x: this.props.selected
             ? spring(-20 * (this.props.col - 1))
             : spring(0),
-          y: this.props.selected ? spring(200) : spring(0),
+          y: this.props.selected ? spring(220) : spring(0),
           width: this.props.selected ? spring(80) : spring(20),
           opacity: spring(1)
         }}
