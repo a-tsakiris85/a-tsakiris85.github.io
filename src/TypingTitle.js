@@ -5,7 +5,7 @@ import "./TypingTitle.css";
 
 const PHRASES = [
   "Andrew Tsakiris",
-  "a Proud Cornellian",
+  "a Cornellian",
   "a Computer Scientist",
   "a Problem Solver"
 ];
@@ -37,7 +37,7 @@ export default class TypingTitle extends React.Component {
     return (
       <div id="completetyping">
         <div id="iamdiv" style={{ float: "left" }}>
-          <h1 id="iam">I AM</h1>
+          <h1 id="iam">I am</h1>
         </div>
         {this.state.typing ? (
           <Typist

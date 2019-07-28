@@ -69,11 +69,15 @@ export default class ExperienceItem extends React.Component {
               fluid
             />
           </div>
-          <div style={{ textAlign: "left", marginLeft: "5em" }}>
+          <div
+            style={{
+              paddingLeft: "100px",
+              paddingTop: "12px",
+              textAlign: "left"
+            }}
+          >
             {this.props.item.position === "Software Engineering Intern" ? (
-              <p style={{ fontSize: "1.2em" }} className="Position">
-                {this.props.item.position}
-              </p>
+              <p className="Position">{this.props.item.position}</p>
             ) : (
               <p className="Position">{this.props.item.position}</p>
             )}
@@ -143,11 +147,7 @@ export default class ExperienceItem extends React.Component {
     return (
       <div className="SelectedGrid">
         <div className="ImageContainer">
-          <Image
-            style={{ maxHeight: "10em" }}
-            src={this.props.item.img}
-            fluid
-          />
+          <img style={{ maxHeight: "10em" }} src={this.props.item.img} fluid />
         </div>
         <div className={"TitleDiv"}>
           <p className="Position">{this.props.item.position} </p>

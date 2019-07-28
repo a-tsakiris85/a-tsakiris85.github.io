@@ -12,6 +12,8 @@ import Involvements from "./pages/Involvements";
 import TypingTitle from "./TypingTitle";
 import NavLink from "./components/NavLink";
 
+import { DropdownButton, MenuItem } from "react-bootstrap";
+
 //TODO: make top nav bar into a grid, make ANDREW TSAKIRIS have a pressable cursor.
 import {
   Navbar,
@@ -31,22 +33,12 @@ class App extends React.Component {
     };
   }
   render() {
+    const width = document.documentElement.clientWidth;
     return (
       <div id="appcontainer">
-        <div className="NavBar">
-          <NavLink onClick={this.handleNavClick} text="ANDREW TSAKIRIS" />
-          <NavLink onClick={this.handleNavClick} text="ABOUT" />
-          <NavLink onClick={this.handleNavClick} text="EXPERIENCE" />
-          <NavLink onClick={this.handleNavClick} text="PROJECTS" />
-          <NavLink onClick={this.handleNavClick} text="INVOLVEMENT" />
-          <NavLink onClick={this.handleNavClick} text="CONTACT" />
-        </div>
+        {width > 700 ? this.renderDesktopHeader() : this.renderPhoneHeader()}
 
         {this.renderPage()}
-
-        <div id="footer">
-          <p>Updated: June 2019 </p>
-        </div>
       </div>
     );
   }
@@ -77,6 +69,70 @@ class App extends React.Component {
       return <Involvements />;
     }
   }
+
+  renderPhoneHeader = () => {
+    const PAGES = [
+      "ANDREW TSAKIRIS",
+      "ABOUT",
+      "EXPERIENCE",
+      "PROJECTS",
+      "INVOLVEMENT",
+      "CONTACT"
+    ];
+    return (
+      <div className="NavBar">
+        <div id="phoneTitle">
+          <div id="phoneImgContainer">
+            <img id="phoneImg" src={profilepic} />
+          </div>
+          <p> ANDREW TSAKIRIS </p>
+        </div>
+        <div id="buttonContainer">
+          <DropdownButton bsStyle="primary" title="Menu">
+            {PAGES.map(pageTitle => {
+              return (
+                <MenuItem
+                  key={pageTitle}
+                  onSelect={() => this.handleNavClick(pageTitle)}
+                >
+                  {pageTitle}
+                </MenuItem>
+              );
+            })}
+          </DropdownButton>
+        </div>
+      </div>
+    );
+  };
+  renderDesktopHeader = () => {
+    return (
+      <div className="NavBar">
+        <div id="profimgcontainer">
+          <img id="profimg" src={profilepic} />
+        </div>
+        <NavLink
+          float="left"
+          onClick={this.handleNavClick}
+          text="ANDREW TSAKIRIS"
+        />
+        <NavLink float="right" onClick={this.handleNavClick} text="CONTACT" />
+        <NavLink
+          float="right"
+          onClick={this.handleNavClick}
+          text="INVOLVEMENT"
+        />
+
+        <NavLink float="right" onClick={this.handleNavClick} text="PROJECTS" />
+        <NavLink
+          float="right"
+          onClick={this.handleNavClick}
+          text="EXPERIENCE"
+        />
+
+        <NavLink float="right" onClick={this.handleNavClick} text="ABOUT" />
+      </div>
+    );
+  };
 }
 
 export default App;

@@ -2,13 +2,16 @@
   .ExperienceItem {
     height: 14em;
     border-style: solid;
-    border-color: #560764;
+    border-color: #f932f5;
     background: white;
     margin-bottom: 2em;
   }
 
   .ImageContainer {
     height: 9em;
+    width: 9em;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 0.8em;
   }
 
@@ -90,7 +93,7 @@
   }
 
   .Position {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-bottom: 0;
     font-weight: bold;
   }
@@ -113,17 +116,32 @@
   }
 
   .Label {
-    font-size: 1.5em;
+    font-size: 1.2em;
+    margin-top: 30px;
   }
 
   .DescriptionDiv {
     margin-top: 1em;
     padding-left: 0px;
     text-align: left;
+    padding-right: 5px;
   }
 
   .Description {
     font-size: 1.2em;
     white-space: pre-wrap;
   }
+}
+
+.ImageContainer {
+  background-color: white;
+}
+.ExperienceItem {
+  background-color: #23104a;
+  color: white;
+}
+
+.ImageContainer img {
+  max-width: 100%;
+  min-width: 100%;
 }

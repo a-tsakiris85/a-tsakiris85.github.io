@@ -9,6 +9,8 @@
   border-color: black;
   margin-bottom: 3em;
   padding-right: 1em;
+  background-color: #23104a;
+  color: #eeeeee;
 }
 
 .ProjectTitle {
@@ -38,6 +40,9 @@
   min-width: 20%;
   margin-right: 2em;
   vertical-align: middle;
+  background-color: white;
+  background: white;
+  box-shadow: 0px 0px 10px 1px #f932f5;
 }
 
 .ProjectImage {
@@ -47,14 +52,17 @@
 }
 
 .LinkImage {
-  min-width: 100%;
-  max-width: 100%;
+  min-width: 95%;
+  max-width: 95%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
 
 .LinkImageContainer {
   min-width: 3em;
   max-width: 3em;
   margin-left: 1em;
+  background-color: white;
 }
 
 .LinkImageContainer :hover {
@@ -79,6 +87,15 @@
     min-width: 50%;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .ProjectInfo {
+    margin-top: 15px;
+  }
+
+  .ProjectTitle {
+    margin-bottom: 10px;
   }
   .ProjectImage {
     max-width: 100%;
@@ -92,6 +109,7 @@
     display: none;
   }
   .LinkContainer {
+    margin-top: 30px;
     text-align: center;
   }
 }
