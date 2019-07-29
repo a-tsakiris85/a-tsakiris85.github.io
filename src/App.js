@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
 import Involvements from "./pages/Involvements";
+import Interests from "./pages/Interests";
 
 import TypingTitle from "./TypingTitle";
 import NavLink from "./components/NavLink";
@@ -56,6 +57,9 @@ class App extends React.Component {
     if (this.state.currentPage === "ABOUT") {
       return <AboutPage />;
     }
+    if (this.state.currentPage === "INTERESTS") {
+      return <Interests />;
+    }
     if (this.state.currentPage === "CONTACT") {
       return <Contact />;
     }
@@ -77,6 +81,7 @@ class App extends React.Component {
       "EXPERIENCE",
       "PROJECTS",
       "INVOLVEMENT",
+      "INTERESTS",
       "CONTACT"
     ];
     return (
@@ -116,6 +121,7 @@ class App extends React.Component {
           text="ANDREW TSAKIRIS"
         />
         <NavLink float="right" onClick={this.handleNavClick} text="CONTACT" />
+        <NavLink float="right" onClick={this.handleNavClick} text="INTERESTS" />
         <NavLink
           float="right"
           onClick={this.handleNavClick}

@@ -36,8 +36,8 @@
 }
 
 .ProjectImageContainer {
-  max-width: 20%;
-  min-width: 20%;
+  max-width: 22%;
+  min-width: 22%;
   margin-right: 2em;
   vertical-align: middle;
   background-color: white;
@@ -63,6 +63,8 @@
   max-width: 3em;
   margin-left: 1em;
   background-color: white;
+  padding-left: 2px;
+  padding-top: 2px;
 }
 
 .LinkImageContainer :hover {

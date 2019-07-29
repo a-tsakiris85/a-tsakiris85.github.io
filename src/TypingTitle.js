@@ -7,7 +7,11 @@ const PHRASES = [
   "Andrew Tsakiris",
   "a Cornellian",
   "a Computer Scientist",
-  "a Problem Solver"
+  "a Bostonian",
+  "an ABRHS Colonial",
+  "a Problem Solver",
+  "a Curious Learner",
+  "a Well-Spoken Leader"
 ];
 
 const cursor = {
@@ -28,7 +32,7 @@ export default class TypingTitle extends React.Component {
   }
   done = () => {
     this.setState(
-      { typing: false, textIndex: (this.state.textIndex + 1) % 4 },
+      { typing: false, textIndex: (this.state.textIndex + 1) % PHRASES.length },
       () => this.setState({ typing: true })
     );
   };
