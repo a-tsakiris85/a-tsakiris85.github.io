@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a26a1449c4dbcfabec970ea2d831206",
+    "revision": "78af730a529fc0f6cbd7ed4a9aab8506",
     "url": "/personalwebsite/index.html"
   },
   {
-    "revision": "efeb2ea5e135e292e3fc",
-    "url": "/personalwebsite/static/css/main.453bcf6d.chunk.css"
+    "revision": "78f9bdb902e6da8e1a17",
+    "url": "/personalwebsite/static/css/main.fc617cc7.chunk.css"
   },
   {
-    "revision": "abe566ff2ae05100381a",
-    "url": "/personalwebsite/static/js/2.120af2c7.chunk.js"
+    "revision": "3082c1dfb6c408ff0254",
+    "url": "/personalwebsite/static/js/2.616540f5.chunk.js"
   },
   {
-    "revision": "efeb2ea5e135e292e3fc",
-    "url": "/personalwebsite/static/js/main.6cb8163e.chunk.js"
+    "revision": "78f9bdb902e6da8e1a17",
+    "url": "/personalwebsite/static/js/main.27988d6b.chunk.js"
   },
   {
     "revision": "1f782c562390b2e61027",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0bbd47bfabfb21823fbceebfddf8d603",
     "url": "/personalwebsite/static/media/baseball.0bbd47bf.png"
+  },
+  {
+    "revision": "3dd9c16d4bbd6f0f6a275efade46577e",
+    "url": "/personalwebsite/static/media/bio.3dd9c16d.png"
   },
   {
     "revision": "f4b63b896bf062e13a847a8108fa2711",
@@ -60,6 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personalwebsite/static/media/linkedin.15fd5adb.png"
   },
   {
+    "revision": "85bb812767fec1893e5a0789362a05b6",
+    "url": "/personalwebsite/static/media/odyssey.85bb8127.jpg"
+  },
+  {
     "revision": "14fbd1b57e3f429c489db79530627a33",
     "url": "/personalwebsite/static/media/profile.14fbd1b5.gif"
   },
@@ -78,5 +86,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e8f4eb42adf58d40c7c2218c369a7f4a",
     "url": "/personalwebsite/static/media/speaking.e8f4eb42.png"
+  },
+  {
+    "revision": "434b839f5b1c9756435bc913051d892b",
+    "url": "/personalwebsite/static/media/website.434b839f.png"
   }
 ]);

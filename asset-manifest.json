@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/personalwebsite/static/css/main.453bcf6d.chunk.css",
-    "main.js": "/personalwebsite/static/js/main.6cb8163e.chunk.js",
-    "main.js.map": "/personalwebsite/static/js/main.6cb8163e.chunk.js.map",
+    "main.css": "/personalwebsite/static/css/main.fc617cc7.chunk.css",
+    "main.js": "/personalwebsite/static/js/main.27988d6b.chunk.js",
+    "main.js.map": "/personalwebsite/static/js/main.27988d6b.chunk.js.map",
     "runtime~main.js": "/personalwebsite/static/js/runtime~main.29a1488c.js",
     "runtime~main.js.map": "/personalwebsite/static/js/runtime~main.29a1488c.js.map",
-    "static/js/2.120af2c7.chunk.js": "/personalwebsite/static/js/2.120af2c7.chunk.js",
-    "static/js/2.120af2c7.chunk.js.map": "/personalwebsite/static/js/2.120af2c7.chunk.js.map",
+    "static/js/2.616540f5.chunk.js": "/personalwebsite/static/js/2.616540f5.chunk.js",
+    "static/js/2.616540f5.chunk.js.map": "/personalwebsite/static/js/2.616540f5.chunk.js.map",
     "index.html": "/personalwebsite/index.html",
-    "precache-manifest.e352b3cceb38dad2d76819f03dc560b6.js": "/personalwebsite/precache-manifest.e352b3cceb38dad2d76819f03dc560b6.js",
+    "precache-manifest.eb976fdd3aa75fe6ea9437fc51528c0b.js": "/personalwebsite/precache-manifest.eb976fdd3aa75fe6ea9437fc51528c0b.js",
     "service-worker.js": "/personalwebsite/service-worker.js",
-    "static/css/main.453bcf6d.chunk.css.map": "/personalwebsite/static/css/main.453bcf6d.chunk.css.map",
+    "static/css/main.fc617cc7.chunk.css.map": "/personalwebsite/static/css/main.fc617cc7.chunk.css.map",
     "static/media/acton.png": "/personalwebsite/static/media/acton.ce198c29.png",
     "static/media/baseball.png": "/personalwebsite/static/media/baseball.0bbd47bf.png",
+    "static/media/bio.png": "/personalwebsite/static/media/bio.3dd9c16d.png",
     "static/media/college_academy.jpg": "/personalwebsite/static/media/college_academy.f4b63b89.jpg",
     "static/media/conant.gif": "/personalwebsite/static/media/conant.44e74408.gif",
     "static/media/cornell.png": "/personalwebsite/static/media/cornell.b44c6f5b.png",
@@ -21,10 +22,12 @@
     "static/media/instagram.png": "/personalwebsite/static/media/instagram.3d8e0c91.png",
     "static/media/learning.png": "/personalwebsite/static/media/learning.d181cbfb.png",
     "static/media/linkedin.png": "/personalwebsite/static/media/linkedin.15fd5adb.png",
+    "static/media/odyssey.jpg": "/personalwebsite/static/media/odyssey.85bb8127.jpg",
     "static/media/profile.gif": "/personalwebsite/static/media/profile.14fbd1b5.gif",
     "static/media/programming.png": "/personalwebsite/static/media/programming.53a86ef1.png",
     "static/media/react.png": "/personalwebsite/static/media/react.afe987a7.png",
     "static/media/slides.png": "/personalwebsite/static/media/slides.a6531937.png",
-    "static/media/speaking.png": "/personalwebsite/static/media/speaking.e8f4eb42.png"
+    "static/media/speaking.png": "/personalwebsite/static/media/speaking.e8f4eb42.png",
+    "static/media/website.png": "/personalwebsite/static/media/website.434b839f.png"
   }
 }
