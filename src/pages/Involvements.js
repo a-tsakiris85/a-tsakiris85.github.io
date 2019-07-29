@@ -6,7 +6,7 @@ export default class Involvements extends React.Component {
   render() {
     return (
       <div className="Page">
-        <h1 className="PageTitle">PROJECTS</h1>
+        <h1 className="PageTitle">INVOLVEMENT</h1>
         <ProjectItem item={tourGuide} />
         <ProjectItem item={odyssey} />
         <ProjectItem item={thetaTau} />
