@@ -1,5 +1,5 @@
 .HeaderButton {
-  background-color: #371976;
+  background-color: #23104a;
   border: none;
   height: 100%;
   min-width: 10em;
@@ -9,7 +9,7 @@
 }
 
 .HeaderButton:hover {
-  background-color: #f932f5;
+  background-color: black;
 }
 
 .HeaderButton:focus {

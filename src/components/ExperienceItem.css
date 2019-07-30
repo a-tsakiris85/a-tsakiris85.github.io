@@ -2,7 +2,7 @@
   .ExperienceItem {
     height: 14em;
     border-style: solid;
-    border-color: #f932f5;
+    border-color: black;
     background: white;
     margin-bottom: 2em;
   }
@@ -87,7 +87,7 @@
   .ExperienceItem {
     height: 7em;
     border-style: solid;
-    border-color: #560764;
+    border-color: #7b64a0;
     background: white;
     min-width: 100%;
   }
