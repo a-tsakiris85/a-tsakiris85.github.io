@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d393d3c5c12baede806bb8519cd0b39",
+    "revision": "e2d2e443cd10041605b7eacb652caa8b",
     "url": "/personalwebsite/index.html"
   },
   {
-    "revision": "0b9067c3e21f05e5768c",
-    "url": "/personalwebsite/static/css/main.fc617cc7.chunk.css"
+    "revision": "3ef911e0eda3dd404298",
+    "url": "/personalwebsite/static/css/main.d3e1a799.chunk.css"
   },
   {
     "revision": "3082c1dfb6c408ff0254",
     "url": "/personalwebsite/static/js/2.616540f5.chunk.js"
   },
   {
-    "revision": "0b9067c3e21f05e5768c",
+    "revision": "3ef911e0eda3dd404298",
     "url": "/personalwebsite/static/js/main.6b14c4d9.chunk.js"
   },
   {
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ce198c29b44723dbf40e7f7a75a89fc7",
     "url": "/personalwebsite/static/media/acton.ce198c29.png"
+  },
+  {
+    "revision": "9b8b995cd9d399b84b9ee1ccfec87745",
+    "url": "/personalwebsite/static/media/background.9b8b995c.jpg"
   },
   {
     "revision": "0bbd47bfabfb21823fbceebfddf8d603",

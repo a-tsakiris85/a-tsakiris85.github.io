@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/personalwebsite/static/css/main.fc617cc7.chunk.css",
+    "main.css": "/personalwebsite/static/css/main.d3e1a799.chunk.css",
     "main.js": "/personalwebsite/static/js/main.6b14c4d9.chunk.js",
     "main.js.map": "/personalwebsite/static/js/main.6b14c4d9.chunk.js.map",
     "runtime~main.js": "/personalwebsite/static/js/runtime~main.29a1488c.js",
@@ -8,10 +8,11 @@
     "static/js/2.616540f5.chunk.js": "/personalwebsite/static/js/2.616540f5.chunk.js",
     "static/js/2.616540f5.chunk.js.map": "/personalwebsite/static/js/2.616540f5.chunk.js.map",
     "index.html": "/personalwebsite/index.html",
-    "precache-manifest.7c3f5af3e53b160cd8813d29a73050b0.js": "/personalwebsite/precache-manifest.7c3f5af3e53b160cd8813d29a73050b0.js",
+    "precache-manifest.c6b8f7957e0e51e9e8c70e34ea180ece.js": "/personalwebsite/precache-manifest.c6b8f7957e0e51e9e8c70e34ea180ece.js",
     "service-worker.js": "/personalwebsite/service-worker.js",
-    "static/css/main.fc617cc7.chunk.css.map": "/personalwebsite/static/css/main.fc617cc7.chunk.css.map",
+    "static/css/main.d3e1a799.chunk.css.map": "/personalwebsite/static/css/main.d3e1a799.chunk.css.map",
     "static/media/acton.png": "/personalwebsite/static/media/acton.ce198c29.png",
+    "static/media/index.css": "/personalwebsite/static/media/background.9b8b995c.jpg",
     "static/media/baseball.png": "/personalwebsite/static/media/baseball.0bbd47bf.png",
     "static/media/bio.png": "/personalwebsite/static/media/bio.3dd9c16d.png",
     "static/media/college_academy.jpg": "/personalwebsite/static/media/college_academy.f4b63b89.jpg",
